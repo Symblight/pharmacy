@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.MenuDirectory">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="13" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="25" left="25" bottom="25" right="25"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="530"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="b0b6" class="javax.swing.JButton" binding="buttonEmployee">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Сотрудники"/>
+        </properties>
+      </component>
+      <component id="658c5" class="javax.swing.JButton" binding="buttonSupplier">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Поставщики"/>
+        </properties>
+      </component>
+      <component id="a872e" class="javax.swing.JButton" binding="buttonAppMed">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Назначение препаратов"/>
+        </properties>
+      </component>
+      <component id="54cc4" class="javax.swing.JButton" binding="buttonPostion">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Должности"/>
+        </properties>
+      </component>
+      <component id="137d" class="javax.swing.JButton" binding="buttonPhermacy">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Аптеки"/>
+        </properties>
+      </component>
+      <component id="c24a8" class="javax.swing.JButton" binding="buttonProducer">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Изготовители"/>
+        </properties>
+      </component>
+      <component id="1ebec" class="javax.swing.JButton" binding="buttonPreparation">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Препараты"/>
+        </properties>
+      </component>
+      <component id="cec52" class="javax.swing.JButton" binding="buttonUnit">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ед измерении"/>
+        </properties>
+      </component>
+      <component id="702d5" class="javax.swing.JButton" binding="buttonPlaceStorage">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Место хранения"/>
+        </properties>
+      </component>
+      <component id="6bf53" class="javax.swing.JButton" binding="buttonModeRelease">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Форма выпуска"/>
+        </properties>
+      </component>
+      <component id="e63e5" class="javax.swing.JButton" binding="buttonEducation">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Образование"/>
+        </properties>
+      </component>
+      <component id="efba5" class="javax.swing.JButton" binding="buttonRecede">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Приход"/>
+        </properties>
+      </component>
+      <component id="c8688" class="javax.swing.JButton" binding="buttonWayApply">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Способ применения"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
