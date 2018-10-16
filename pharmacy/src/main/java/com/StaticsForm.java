@@ -30,8 +30,7 @@ public class StaticsForm extends JFrame {
         this.getContentPane().add(rootPanel);
         this.setSize(800, 600);
         this.setLocationRelativeTo(null);
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setResizable(false);
+        this.setResizable(true);
 
     //    chartPanel.add(createDemoPanel());
         chartPanel.validate();

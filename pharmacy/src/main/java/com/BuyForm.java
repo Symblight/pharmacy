@@ -23,12 +23,14 @@ public class BuyForm extends JFrame {
 
     public static MenuDirectory menuDirectory;
     public static StaticsForm staticsForm;
+    public static CheckForm checkForm;
     private List<Employee> employeeList;
     private List<com.datamodel.Unit> unitList;
     private List<Preparation> preparationList;
-    protected List<Order> orderList  = new ArrayList<Order>();
+    private List<Order> orderList  = new ArrayList<Order>();
     private double result;
     private double resultSale;
+    private static Order newOrder;
 
     public BuyForm() {
         super("Продажи");
@@ -49,6 +51,18 @@ public class BuyForm extends JFrame {
         });
         FinishBtn.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+
+             //   CheckForm.orderList = orderList;
+                CheckForm.entry = textField5.getText();
+                CheckForm.output = textField6.getText();
+                CheckForm.sale = textField3.getText();
+
+                if(checkForm == null || !checkForm.isVisible()) {
+                    checkForm = null;
+                    checkForm = new CheckForm();
+                    checkForm.setVisible(true);
+                }
+
                 textField1.setText(null);
                 textField2.setText(null);
                 textField3.setText(null);
@@ -133,7 +147,7 @@ public class BuyForm extends JFrame {
     }
 
     private void addToTable(){
-        Order newOrder = new Order();
+        newOrder = new Order();
 
         newOrder.setCount(Integer.parseInt(textFieldCount.getText()));
         newOrder.setPreparation(preparationList.get(comboBox2.getSelectedIndex()));
