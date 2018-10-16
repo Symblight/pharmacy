@@ -22,6 +22,7 @@ import java.util.regex.Pattern;
 public class BuyForm extends JFrame {
 
     public static MenuDirectory menuDirectory;
+    public static StaticsForm staticsForm;
     private List<Employee> employeeList;
     private List<com.datamodel.Unit> unitList;
     private List<Preparation> preparationList;
@@ -108,6 +109,15 @@ public class BuyForm extends JFrame {
                     resultSale = saleResult;
 
                     textField4.setText(String.format("%(.2f", saleResult));
+                }
+            }
+        });
+        btnStatics.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                if(staticsForm == null || !staticsForm.isVisible()) {
+                    staticsForm = null;
+                    staticsForm = new StaticsForm();
+                    staticsForm.setVisible(true);
                 }
             }
         });
@@ -242,4 +252,5 @@ public class BuyForm extends JFrame {
     private JComboBox comboBox3;
     private JButton addToTableBtn;
     private JTextField textFieldCount;
+    private JButton btnStatics;
 }
