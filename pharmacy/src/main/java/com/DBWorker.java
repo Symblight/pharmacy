@@ -37,7 +37,7 @@ public class DBWorker {
         }
         catch (SQLException e)
         {
-            System.err.println("Error");
+            System.err.println("Error connect to DB");
         }
     }
 
