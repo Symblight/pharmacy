@@ -68,7 +68,7 @@ public class StaticsForm extends JFrame {
     private static JFreeChart createChart(PieDataset dataset) {
 
         JFreeChart chart = ChartFactory.createPieChart(
-                "Статистика",  // chart title
+                "Наличие лекарственных средств",  // chart title
                 dataset,             // data
                 true,               // include legend
                 true,
